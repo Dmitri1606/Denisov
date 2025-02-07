@@ -1,4 +1,5 @@
 import pandas as pd
+
 #
 #
 # # Чтение Excel-файла
@@ -13,11 +14,13 @@ print(df_excel.tail(5))
 # Посмотреть рандомные 5 строк
 print(df_excel.sample(n=5))
 
+column = int(input("Ведите номер столба: "))
+
 # Посмотреть одну строку
-print(df_excel.iloc[:, 1])
+print(df_excel.iloc[:, column])
 
 # Посмотреть её среднее значение
-average_value = df_excel.iloc[:, 1].mean()
+average_value = df_excel.iloc[:, column].mean()
 print(average_value)
 
 
