@@ -1,1 +1,1 @@
-my_token = '7578201996:AAEjR1YEDeT5i-2t7H0wORwDJEHfvx6eHwE'
+my_token = ''
