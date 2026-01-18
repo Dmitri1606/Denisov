@@ -26,4 +26,4 @@ def merge(left, right):
 
 data = [38, 27, 43, 3, 9, 82, 10]
 sorted_data = merge_sort(data)
-print(f"Отсортированный массив: {sorted_data}")  # Вывод: [3, 9, 10, 27, 38, 43, 82]
+print(f"Отсортированный массив: {sorted_data}")  
