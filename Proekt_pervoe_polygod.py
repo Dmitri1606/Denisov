@@ -7,8 +7,6 @@ def merge_sort(arr):
     left_half = merge_sort(left_half)
     right_half = merge_sort(right_half)
     return merge(left_half, right_half)
-
-
 def merge(left, right):
     merged = []
     i = j = 0
@@ -22,8 +20,7 @@ def merge(left, right):
     merged.extend(left[i:])
     merged.extend(right[j:])
     return merged
-
-
 data = [38, 27, 43, 3, 9, 82, 10]
 sorted_data = merge_sort(data)
-print(f"Отсортированный массив: {sorted_data}")  
+print(sorted_data)  
+
